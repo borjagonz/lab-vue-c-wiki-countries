@@ -11,9 +11,9 @@
 </template>
 
 <script setup>
-import NavBar from "./components/NavBar.vue";
-import CountriesList from "/components.components/CountriesList.vue";
-import countriesData from ".countries.json";
+import NavBar from "/components/NavBar.vue";
+import CountriesList from "/components/CountriesList.vue";
+import countriesData from "/src/countries.json";
 import { ref } from "vue";
 
 const countries = ref(countriesData);
